@@ -4,19 +4,18 @@
     background-repeat: no-repeat; /* Do not repeat the icon image */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 15px solid rgb(255, 0, 0);
-    margin-bottom: 12px; /* Add some space below the input */
-    background-color: black;
-    width: 50%;
-    margin-left: 20%;
-    margin-top: 50px;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-left: 90%;
+    margin-top: 120%;
     display:inline-block;
 }
+
 #SearchBackground{
-    width: 290%;
-    height: 50px;
-    padding-top: 100px;
-    background-color: aqua;
+    width: 303%;
+    height: 100px;
+    background-color: rgba(0,0,0,.5);
+    margin-top: -75px;
 }
 body {
     margin: 0;
@@ -28,7 +27,7 @@ body {
     width: 100%;
     background-color: rgba(0,0,0,.5);
     position: absolute;
-    margin-top: 0px;
+    margin-top: 0%;
     height: 60px;
 }
 
@@ -84,10 +83,9 @@ body {
     height: 100%;
 }
 #container {
-    height: inherit;
+    height: 100%;
     width: 33%;
     background-image: url(Images/ski.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    
+    background-size:cover;  
 }
