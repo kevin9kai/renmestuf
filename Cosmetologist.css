@@ -5,17 +5,17 @@
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     background-color: whitesmoke;
-    width: 100%;
-    margin-left: 90%;
-    margin-top: 120%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 550px;
     display:inline-block;
 }
 
 #SearchBackground{
-    width: 303%;
+    width: 100%;
     height: 100px;
     background-color: rgba(0,0,0,.5);
-    margin-top: -75px;
+    margin-top: -70px;
 }
 body {
     margin: 0;
@@ -82,9 +82,10 @@ html{
 body {
     height: 100%;
 }
-#container {
+.behind #containerLeft {
     height: 100%;
     width: 33%;
+    margin-top: -550px;
     background-image: url(Images/ski.jpg);
     background-repeat: no-repeat;
     background-size:cover;  
