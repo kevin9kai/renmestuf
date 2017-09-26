@@ -248,7 +248,7 @@ body > section {
   background-color: #f39c12;
 }
 .emerald {
-  background-color: #2ecc71;
+  background-color: cadetblue;
 }
 .nephritis {
   background-color: #27ae60;
@@ -324,12 +324,27 @@ body > section {
 #main-slider {
   position: relative;
 }
+#sliderButton{
+    position:sticky;
+    margin-top: 10px;
+    margin-right: 20px;
+}
 #main-slider .carousel h2 {
   font-size: 36px;
 }
 #main-slider .searchbar {
-   margin-top: 150px; 
+   margin-top: 300px; 
 }
+#main-slider .searchbar2
+{
+    margin-top: 345px;
+}
+#main-slider .searchbar3
+{
+    margin-top: 307px;
+    width: 200%;
+}
+
 }
 #main-slider .carousel .btn {
   border: 3px solid rgba(255, 255, 255, 0.5);
@@ -360,6 +375,9 @@ body > section {
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
+}
+#textPage1{
+    margin-top: 30px;
 }
 #main-slider .carousel .item:first-child {
   top: auto;
@@ -454,6 +472,34 @@ body > section {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+#carouselPage1{
+    margin-top: -150px;
+    color:cornsilk;
+     text-shadow:
+    -.5px -.5px 0px #669999,
+    .5px -.5px 0px #669999,
+    -.5px .5px 0px #669999,
+    .5px .5px 0px #669999;
+}
+#carouselPage2{
+    margin-top: 100px;
+    color:cornsilk;
+     text-shadow:
+    -.5px -.5px 0px #669999,
+    .5px -.5px 0px #669999,
+    -.5px .5px 0px #669999,
+    .5px .5px 0px #669999;
+    
+}
+#carouselPage3 {
+    color:cornsilk;
+     text-shadow:
+    -.5px -.5px 0px #7a7a52,
+    .5px -.5px 0px #7a7a52,
+    -.5px .5px 0px #7a7a52,
+    .5px .5px 0px #7a7a52;
 }
 .portfolio-items.col-2 > li {
   width: 50%;
